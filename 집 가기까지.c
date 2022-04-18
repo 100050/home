@@ -10,7 +10,7 @@ int main() {
 	b = pLocal -> tm_min;
 	
 	if (20 < pLocal->tm_min) {
-		a--;
+		a++;
 		b-=60;
 	} 
 	
