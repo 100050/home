@@ -9,12 +9,12 @@ int main() {
 	a = pLocal->tm_hour;
 	b = pLocal -> tm_min;
 	
-	if (20 < pLocal->tm_min) {
+	if (30 < pLocal->tm_min) {
 		a++;
 		b-=60;
 	} 
 	
-	printf("%02d½시간 %02d분 남았다" 16 - a, 20 - b);
+	printf("%02d½시간 %02d분 남았다" 16 - a, 30 - b);
 	
 	return 0;
 } 
